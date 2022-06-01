@@ -4,7 +4,7 @@ import {GraphQLClient, gql} from 'graphql-request';
 import { BlogCard } from '../components/BlogCard';
 
 
-const graphcms = new GraphQLClient("https://api-eu-central-1.graphcms.com/v2/cl3vcb8q2exa301z6amcja3ab/master");
+const graphcms = new GraphQLClient("API goes here");
 
 const query = gql`
 {
