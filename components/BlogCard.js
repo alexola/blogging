@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export function BlogPost({title, author, coverPhoto, datePublished, slug}) {
+export function BlogCard({title, author, coverPhoto, datePublished, slug}) {
   return(
     <div className={styles.card}>
       <Link>
@@ -11,3 +11,4 @@ export function BlogPost({title, author, coverPhoto, datePublished, slug}) {
     </div>
   );
 }
+
